@@ -1,6 +1,6 @@
 # debug-container
 
-This repository contains a minimal docker configuration to have access to debugging tools that are not available on macOS (for example `valgrind`).
+This repository contains a minimal docker configuration to have access to C/C++ debugging tools that are not available on macOS (for example `valgrind`).
 
 ## Installation
 
@@ -24,4 +24,4 @@ This configuration contains only basic tools for debugging C/C++ code, but you c
 ## Sidenotes
 
 This configuration was inspired by [this one](https://github.com/Le-Technologue/debug-tools).
-I tried to make it as light as possible by using a slim debian image and installing fewer packages.
+I tried to make it as light as possible by installing fewer packages.
